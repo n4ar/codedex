@@ -1,3 +1,5 @@
+import math
+
 print("==================")
 print("Area Calculator 📐")
 print("==================")
@@ -26,7 +28,7 @@ elif choice == 3:
     print(f"Area of square: {area:.2f}")
 elif choice == 4:
     radius = float(input("Enter radius: "))
-    area = 3.14159 * radius ** 2
+    area = math.pi * radius ** 2
     print(f"Area of circle: {area:.2f}")
 elif choice == 5:
     print("Exiting...")
